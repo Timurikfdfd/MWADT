@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratory work 1</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>Лабораторная работа 1</h1>
+
+        
+    <form id="authForm" class="auth-form">
+        <input required type="text" id="login" name="login" placeholder="Введите логин">
+        <input required type="password" id="password" name="password" placeholder="Введите пароль">
+        <div class="button-group">
+            <button type="submit">Войти</button>
+            <button type="button" onclick="clearForm()">Очистить</button>
+        </div>
+    </form>
+    <div id="messageCheckAuth" class="message"></div>
+
+    <div class="counter">
+        <p>Счётчик: <span id="counter">0</span></p>
+        <button id="incrementBtn">Увеличить</button>
+        <button id="decrementBtn">Уменьшить</button>
+    </div>   
+</body>
+
+</html>
